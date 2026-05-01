@@ -21,13 +21,13 @@
 
 ### Training Loss Curve + MSE Bar Plot
 
-![Results](src/results.png)
+![Results](results.png)
 
 The bar plot shows mean ± std MSE over 100 test episodes with randomly sampled context and query sets. End-effector and object positions are evaluated separately in original (un-normalised) units.
 
 ### Test Visualisation
 
-![Test](src/test_visualization.png)
+![Test](test_visualization.png)
 
 Predicted trajectories (dashed) with ±1 std bands vs. ground truth (solid) for all four output dimensions, given 5 random context points (dots).
 
